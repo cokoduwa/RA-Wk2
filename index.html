@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Info</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <p>Please complete and submit the following form below:</p>
+    <form action="">
+        <!-- First Name -->
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" id="fname" required>
+        
+        <br>
+
+        <!-- Last Name -->
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname" required>
+        
+        <br>
+        
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        
+        <br>
+        
+        <!-- Message -->
+        <label for="message">Enter a message here:</label> <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <!-- Priority -->
+        <label for="priority">Priority</label>
+        <select name="priority" id="priority">
+            <option value="none"></option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+
+        <br>
+
+        <!-- Submit Button -->
+        <button>Submit</button>
+
+    </form>
+    
+</body>
+</html>
