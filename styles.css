@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #9ceaef;   
+    color: #023e8a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation and Menu Bars */
+
+.top-bar {
+    font-family: 'Lora', serif;
+}
+
+.top-bar h1  {
+    font-size: 40px;
+    text-shadow: 2px 2px 8px #1d3557;
+}
+
+header {
+    margin: 10px;
+}
+
+nav {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: #023e8a;
+    font-weight: 700;
+}
+
+.left-nav a:hover {
+    color: #fca311;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Icons */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  padding: 0 5px;
+
+}
+
+.material-symbols-outlined:hover {
+    font-variation-settings:
+    'FILL' 100;
+    font-size: 28px;
+  }
+
+main {
+    background-color: #edf6f9;
+    padding: 50px 0;
+
+}
+
+section {
+    margin: 20px;
+}
+
+/* Footer Section */
+
+footer {
+    padding: 40px 0;
+    line-height: 40px;
+    font-family: 'Lora', serif;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+/* Home Page */
+
+.styles {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.mission {
+    margin: 0 auto;
+    padding: 30px;
+    width: 500px;
+}
+
+/* Products Page */
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.heading {
+    margin: 50px;
+}
+
+.dresses img {
+    height: 300px;
+    width: 220px;
+}
+
+.title {
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+.dresses {
+    background-color: #9ceaef;
+    padding: 20px 5px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.price {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.dresses button {
+    font-size: 18px;
+    color: #edf6f9;
+    background-color: #1d3557;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+
+.dresses button:hover {
+    color: #1d3557;
+    background-color: #edf6f9;
+    cursor: pointer;
+}
+
+/* Contact Us */
+
+form {
+    background-color: #9ceaef;
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+}
+
+.info {
+    margin: 0 auto;
+    padding: 25px;
+    width: 350px;
+}
+
+.submit {
+    font-size: 18px;
+    color: #edf6f9;
+    background-color: #1d3557;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+
+.submit:hover {
+    color: #1d3557;
+    background-color: #edf6f9;
+    cursor: pointer;
+}
